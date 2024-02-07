@@ -10,7 +10,7 @@ import '../stylesheets/App.css';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 const Header = () => {
-  const headerFont = createTheme({  //this shit is not working
+  const headerFont = createTheme({  
     typography: {
       fontFamily: [
         'Pixelify Sans',

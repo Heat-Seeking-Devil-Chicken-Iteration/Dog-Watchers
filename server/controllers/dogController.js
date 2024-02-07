@@ -72,7 +72,7 @@ dogController.addDog = async (req, res, next) => {
 //             message: { error: 'Table not created' }}
 //           ));
 //     }
-
+console.log('hi')
 // }
 
 dogController.fetchDogs = async (req, res, next) => {

@@ -36,7 +36,6 @@ import eboshi from "../../assets/eboshi.jpg";
 import { useAuth } from "./Authorization";
 
 const headerFont = createTheme({
-  //this shit is not working
   typography: {
     fontFamily: ["Pixelify Sans", "sans-serif"].join(","),
   },
